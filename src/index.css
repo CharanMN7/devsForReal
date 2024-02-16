@@ -14,7 +14,11 @@
   -moz-osx-font-smoothing: grayscale; */
 }
 
-.roboto-mono-400 {
+body {
+  height: 100%;
+}
+
+.roboto-mono {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 400;
