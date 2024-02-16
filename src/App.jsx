@@ -1,8 +1,12 @@
-import { useState } from "react";
 import "./App.css";
+import { Lander } from "./pages/lander";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Lander />
+    </>
+  );
 }
 
 export default App;

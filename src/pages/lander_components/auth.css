@@ -1,0 +1,47 @@
+#authstuff {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 30rem;
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+#authstuff input {
+  padding: 0.25rem;
+  font-size: 1.25rem;
+  color: green;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: var(--dev-black);
+}
+
+#authstuff input:focus {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid green;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  width: max-content;
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  width: max-content;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: green;
+}
+
+#authstuff div {
+  margin-bottom: 2rem;
+}
